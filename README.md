@@ -34,7 +34,17 @@ To run some unit tests you have to:
 ## Project Patterns
 
 ### Architecture 
-- MVVM with closures 
+- MVVM with closures
+
+```
+<MODULE_NAME>
+├── Coordinators
+│   └── <MODULE_NAME>Coordinator.swift
+├── ViewControllers
+│   └── <MODULE_NAME>ViewController.swift
+└── ViewModels
+    └── <MODULE_NAME>ViewModel.swift
+```
 
 ### UI development
 - ViewCode
